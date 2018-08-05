@@ -9,10 +9,25 @@ import (
 func CreateConnection() (gorose.Connection, error) {
 
 	host := os.Getenv("DB_HOST")
+	if host == ""{
+		host = "localhost";
+	}
 	username := os.Getenv("DB_USER")
+	if username == "" {
+		username = "root"
+	}
 	password := os.Getenv("DB_PASSWORD")
-	database := os.Getenv("DB_DATABASE")
+	if password == ""{
+		password = "root"
+	}
+	database := os.Getenv("DB_NAME")
+	if database == "" {
+		database = "golang"
+	}
 	prefix := os.Getenv("DB_PREFIX")
+	if prefix == "" {
+		prefix = "go_"
+	}
 	// DB Config.(Recommend to use configuration file to import)
 	var DbConfig = map[string]interface{}{
 		"Default": "mysql_dev",  //数据库默认配置

@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	//连接数据库
 	connection, err := CreateConnection()
 	if err != nil {
 		log.Fatalf("connect err: %v\n",err)
