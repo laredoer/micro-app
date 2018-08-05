@@ -1,21 +1,22 @@
 package main
 
 import (
-		"log"
-		pb "micro-app/user/user-service/proto"
+	"log"
+	pb "micro-app/user/user-service/proto"
 	"github.com/micro/go-micro"
 )
 
 func main() {
-	db, err := CreateConnection()
+	connection, err := CreateConnection()
 	if err != nil {
 		log.Fatalf("connect err: %v\n",err)
 	}
 
-	defer db.Close()
+	db := connection.GetInstance()
 
+	defer connection.Close()
 
-	db.AutoMigrate(&pb.User{})
+	repo := &UserRepository{db}
 
 	service := micro.NewService(
 		micro.Name("go.micro.srv.user"),
