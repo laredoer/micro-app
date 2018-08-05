@@ -9,7 +9,7 @@ build:
 run:
 #在Dockeralpine容器的50001端口上运行consignment-service服务
 #可添加-d参数将微服务放到后台运行
-	docker run -p 50051:50051 \
-	-e MICRO_SERVER_ADDRESS=:50051 \
+	docker run -p 50052:50052 \
+	-e MICRO_SERVER_ADDRESS=:50052 \
 	-e MICRO_REGISTRY=mdns \
 	user-service
