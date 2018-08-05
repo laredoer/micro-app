@@ -123,7 +123,7 @@ func (c *userService) ValidateToken(ctx context.Context, in *Token, opts ...clie
 }
 
 // Server API for UserService service
-
+//微服务的handler必须实现这个接口
 type UserServiceHandler interface {
 	Create(context.Context, *User, *Response) error
 	Get(context.Context, *User, *Response) error
