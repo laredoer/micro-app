@@ -1,0 +1,14 @@
+//proto版本
+syntax = "proto3";
+
+//包名
+package go.micro.api.user;
+
+
+import "github.com/micro/go-api/proto/api.proto";
+//定义接口
+service UserService {
+    rpc Hello(go.api.Request) returns (go.api.Response){}
+}
+
+

@@ -1,6 +1,12 @@
 version: '3.1'
 
 services:
+  user-api:
+    build: ./user-api
+    ports:
+      - 50051:50051
+    environment:
+      MICRO_REGISTRY: "mdns"
   user-service:
     build: ./user-service
     ports:
@@ -22,5 +28,6 @@ services:
       - "0.0.0.0:3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root
+
 
 
