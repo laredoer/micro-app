@@ -3,10 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="8c8ea513-d26e-4c13-81ac-67d3bc77d6c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-cli/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-cli/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-cli/cli.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-api/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-api/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-api/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-api/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-api/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-api/proto/user.micro.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-api/proto/user.micro.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-api/proto/user.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-api/proto/user.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-api/proto/user.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-api/proto/user.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-api/user-api" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-api/user-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/database.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-service/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/proto/user.micro.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/proto/user.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/proto/user.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-service/proto/user.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/repository.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/user-service" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,50 +47,52 @@
     <session id="-1230003571">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="22" />
-          <entry key="Makefile" value="30" />
+          <entry key="Makefile" value="36" />
           <entry key="gitignore" value="1" />
-          <entry key="go" value="82" />
-          <entry key="proto" value="17" />
-          <entry key="yaml" value="9" />
+          <entry key="go" value="91" />
+          <entry key="proto" value="21" />
+          <entry key="yaml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="22" />
-          <entry key="Go" value="82" />
-          <entry key="Makefile" value="30" />
+          <entry key="Go" value="91" />
+          <entry key="Makefile" value="36" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="PROTO" value="17" />
-          <entry key="YAML" value="9" />
+          <entry key="PROTO" value="21" />
+          <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="281" />
-          <entry key="Makefile" value="67" />
+          <entry key="Makefile" value="88" />
           <entry key="gitignore" value="1" />
-          <entry key="go" value="5521" />
-          <entry key="proto" value="1211" />
+          <entry key="go" value="5538" />
+          <entry key="proto" value="1212" />
           <entry key="yaml" value="444" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="281" />
-          <entry key="Go" value="5521" />
-          <entry key="Makefile" value="67" />
+          <entry key="Go" value="5538" />
+          <entry key="Makefile" value="88" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="PROTO" value="1211" />
+          <entry key="PROTO" value="1212" />
           <entry key="YAML" value="444" />
         </counts>
       </usages-collector>
@@ -85,17 +102,36 @@
     <favorites_list name="micro-app" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/docker-compose.yaml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/user-service/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="648">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
               <folding>
-                <element signature="e#28#136#0" />
-                <element signature="e#139#455#0" />
-                <element signature="e#458#573#0" />
+                <element signature="e#14#227#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/user-service/handler.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/user-service/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -117,6 +153,9 @@
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/user-service/proto/user.proto" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -147,6 +186,11 @@
         <option value="$PROJECT_DIR$/user/user-api/Dockerfile" />
         <option value="$PROJECT_DIR$/user/user-api/main.go" />
         <option value="$PROJECT_DIR$/user/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/src/user-api/main.go" />
+        <option value="$PROJECT_DIR$/src/user-service/proto/user.proto" />
+        <option value="$PROJECT_DIR$/src/user-service/handler.go" />
+        <option value="$PROJECT_DIR$/src/user-service/main.go" />
+        <option value="$PROJECT_DIR$/src/user-service/Makefile" />
       </list>
     </option>
   </component>
@@ -168,6 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,32 +223,32 @@
             <path>
               <item name="micro-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-app" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="micro-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-app" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/wule/go/src/micro-app/user/user-cli/cli.go" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/user-service" />
       <recent name="$PROJECT_DIR$/user/userId-service" />
     </key>
   </component>
@@ -267,11 +312,11 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.16309012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.1695279" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.15665236" />
       <window_info id="Favorites" order="2" sideWeight="0.50120485" side_tool="true" weight="0.15665236" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -280,8 +325,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33975902" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.27757126" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.33952913" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,20 +379,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-service/repository.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-service/database.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user-service/repository.go" />
+    <entry file="file://$PROJECT_DIR$/src/user-service/database.go" />
     <entry file="file://$PROJECT_DIR$/../github.com/micro/go-micro/options.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -362,27 +395,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-service/proto/user.pb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-cli/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-cli/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-cli/Makefile" />
+    <entry file="file://$PROJECT_DIR$/user/user-cli/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -390,127 +404,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-cli/cli.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#14#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-service/proto/user.micro.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="51" column="78" lean-forward="true" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
-          <folding>
-            <element signature="e#310#510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-service/proto/user.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="18" lean-forward="true" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-service/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#14#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-service/handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#14#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-api/proto/user.micro.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-cli/cli.go" />
+    <entry file="file://$PROJECT_DIR$/src/user-service/proto/user.micro.go" />
+    <entry file="file://$PROJECT_DIR$/src/user-api/proto/user.micro.go" />
     <entry file="file://$PROJECT_DIR$/../github.com/micro/go-api/proto/api.proto">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-api/handler.go">
+    <entry file="file://$PROJECT_DIR$/src/user-api/proto/user.proto" />
+    <entry file="file://$PROJECT_DIR$/src/user-service/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/src/user-api/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/src/user-api/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="111">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user-api/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user-service/proto/user.pb.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user-service/proto/user.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user-api/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
           <folding>
             <element signature="e#14#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-api/proto/user.proto">
+    <entry file="file://$PROJECT_DIR$/src/user-service/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-service/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-service/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="20" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-api/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-api/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-api/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="648">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding>
-            <element signature="e#14#96#0" expanded="true" />
+            <element signature="e#14#227#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/docker-compose.yaml">
+    <entry file="file://$PROJECT_DIR$/src/user-service/handler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="9">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="e#28#136#0" />
-            <element signature="e#139#455#0" />
-            <element signature="e#458#573#0" />
+            <element signature="e#14#84#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user-service/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
